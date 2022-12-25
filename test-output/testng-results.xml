@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Reading url From Properties File ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking On SignIn Button]]>
+    </line>
+    <line>
+      <![CDATA[Reading mobNumber From Properties File ]]>
+    </line>
+    <line>
+      <![CDATA[Sending Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[Clicking  on Password Button]]>
+    </line>
+    <line>
+      <![CDATA[Reading password From Properties File ]]>
+    </line>
+    <line>
+      <![CDATA[Sending Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicking On My Account]]>
+    </line>
+    <line>
+      <![CDATA[Clicking On My Transaction]]>
+    </line>
+    <line>
+      <![CDATA[Switching to Transaction Page]]>
+    </line>
+    <line>
+      <![CDATA[Amount is Seems like you haven’t made any payments yet.]]>
+    </line>
+    <line>
+      <![CDATA[Taking Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Switching to main page]]>
+    </line>
+    <line>
+      <![CDATA[Logging Out From PB]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-23T12:37:58 IST" name="Default suite" finished-at="2022-12-23T12:38:56 IST" duration-ms="58377">
+    <groups>
+    </groups>
+    <test started-at="2022-12-23T12:37:58 IST" name="Default test" finished-at="2022-12-23T12:38:56 IST" duration-ms="58377">
+      <class name="policyBazaar_Test.PB_Test">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:policyBazaar_Test.PB_Test@957e06]" started-at="2022-12-23T12:37:58 IST" name="launchingBrowser" finished-at="2022-12-23T12:38:22 IST" duration-ms="24159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reading url From Properties File ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:policyBazaar_Test.PB_Test@957e06]" started-at="2022-12-23T12:38:22 IST" name="signIn" finished-at="2022-12-23T12:38:33 IST" duration-ms="10678" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking On SignIn Button]]>
+            </line>
+            <line>
+              <![CDATA[Reading mobNumber From Properties File ]]>
+            </line>
+            <line>
+              <![CDATA[Sending Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[Clicking  on Password Button]]>
+            </line>
+            <line>
+              <![CDATA[Reading password From Properties File ]]>
+            </line>
+            <line>
+              <![CDATA[Sending Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicking On My Account]]>
+            </line>
+            <line>
+              <![CDATA[Clicking On My Transaction]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="gettingMypayment()[pri:0, instance:policyBazaar_Test.PB_Test@957e06]" started-at="2022-12-23T12:38:33 IST" name="gettingMypayment" finished-at="2022-12-23T12:38:52 IST" duration-ms="19559" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Switching to Transaction Page]]>
+            </line>
+            <line>
+              <![CDATA[Amount is Seems like you haven’t made any payments yet.]]>
+            </line>
+            <line>
+              <![CDATA[Taking Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[Switching to main page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gettingMypayment -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:policyBazaar_Test.PB_Test@957e06]" started-at="2022-12-23T12:38:52 IST" name="logOut" finished-at="2022-12-23T12:38:55 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging Out From PB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:policyBazaar_Test.PB_Test@957e06]" started-at="2022-12-23T12:38:55 IST" name="closingBrowser" finished-at="2022-12-23T12:38:56 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- policyBazaar_Test.PB_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
